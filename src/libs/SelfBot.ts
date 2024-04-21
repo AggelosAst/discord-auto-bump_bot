@@ -2,8 +2,9 @@ import {Client, Message, TextChannel} from "discord.js-selfbot-v13";
 import {SelfBotOptions} from "../types/SelfBotOptions";
 import {AutoBump} from "./AutoBump";
 import {DateTime, DurationObjectUnits} from "luxon";
+import {SelfBotI} from "../types/SelfBot";
 
-export class SelfBot {
+export class SelfBot implements SelfBotI{
     private readonly token: string
     private readonly Client: Client
     private readonly botId: string
