@@ -1,0 +1,24 @@
+{
+  "name": "autobump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^20.12.7",
+    "prisma": "^5.12.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "discord.js-selfbot-v13": "^3.1.4",
+    "luxon": "^3.4.4"
+  }
+}
