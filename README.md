@@ -26,7 +26,8 @@ const AB = new AutoBump({
         every: 60000,
         hours: hours,
         StealthSpan: 25 /* Adjust me! */
-    })```
+})
+```
 
 
 # Ez to use
