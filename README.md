@@ -16,9 +16,11 @@ That is all and configure it in the index.ts file
 
 ## Customizable Delay:
 
-Set a threshold in minutes to prevent detection and ensure successful bumps.
+Set a threshold in seconds to prevent detection and ensure successful bumps.
 Delay feature helps avoid detection by the bot itself and other members.
 Adjust the StealthSpan setting for advanced control over detection avoidance.
+
+ ##  !!! IN SECONDS !!!
 
 ```js
 const AB = new AutoBump({
